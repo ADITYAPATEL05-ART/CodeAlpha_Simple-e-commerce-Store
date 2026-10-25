@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 320" width="300" height="320">
+  <rect width="300" height="320" fill="#f4f5f6" />
+  <path d="M100,55 L200,55 L270,185 L235,200 L195,120 L195,270 L105,270 L105,120 L65,200 L30,185 Z" fill="#2d3748" stroke="#1a202c" stroke-width="2" />
+  <line x1="105" y1="100" x2="195" y2="100" stroke="#1a202c" stroke-width="3" />
+  <line x1="105" y1="140" x2="195" y2="140" stroke="#1a202c" stroke-width="3" />
+  <line x1="105" y1="180" x2="195" y2="180" stroke="#1a202c" stroke-width="3" />
+  <line x1="105" y1="220" x2="195" y2="220" stroke="#1a202c" stroke-width="3" />
+  <line x1="150" y1="55" x2="150" y2="270" stroke="#718096" stroke-width="2" />
+  <text x="150" y="295" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11" font-weight="600" fill="#64748b" text-anchor="middle">DOWN PUFFER BOMBER</text>
+</svg>
+

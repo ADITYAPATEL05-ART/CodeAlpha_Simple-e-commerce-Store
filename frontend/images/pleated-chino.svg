@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 320" width="300" height="320">
+  <rect width="300" height="320" fill="#f4f5f6" />
+  <path d="M100,50 L200,50 L205,80 L200,270 L160,270 L150,140 L140,270 L100,270 L95,80 Z" fill="#c2ab87" stroke="#8c7857" stroke-width="2" />
+  <rect x="100" y="48" width="100" height="12" fill="#a48c68" />
+  <line x1="125" y1="60" x2="125" y2="120" stroke="#8c7857" stroke-width="1.5" />
+  <line x1="175" y1="60" x2="175" y2="120" stroke="#8c7857" stroke-width="1.5" />
+  <text x="150" y="300" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11" font-weight="600" fill="#64748b" text-anchor="middle">PLEATED RELAXED CHINO</text>
+</svg>
+

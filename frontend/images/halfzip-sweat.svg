@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 320" width="300" height="320">
+  <rect width="300" height="320" fill="#f4f5f6" />
+  <path d="M105,40 L195,40 L200,65 L275,185 L245,200 L190,120 L190,265 L110,265 L110,120 L55,200 L25,185 L100,65 Z" fill="#1e3a5f" stroke="#0f172a" stroke-width="2" />
+  <rect x="110" y="35" width="80" height="25" fill="#0f2744" stroke="#0f172a" stroke-width="2" />
+  <line x1="150" y1="35" x2="150" y2="125" stroke="#94a3b8" stroke-width="3" />
+  <rect x="147" y="90" width="6" height="12" fill="#cbd5e1" rx="1" />
+  <text x="150" y="295" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11" font-weight="600" fill="#64748b" text-anchor="middle">NAVY HALF-ZIP</text>
+</svg>
+

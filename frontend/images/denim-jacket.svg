@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 320" width="300" height="320">
+  <rect width="300" height="320" fill="#f4f5f6" />
+  <path d="M100,50 L200,50 L275,185 L245,200 L195,125 L195,265 L105,265 L105,125 L55,200 L25,185 Z" fill="#203a5e" stroke="#12233a" stroke-width="2" />
+  <path d="M105,48 L140,85 L150,80 L160,85 L195,48" fill="#12233a" />
+  <line x1="150" y1="80" x2="150" y2="265" stroke="#d97706" stroke-width="2" stroke-dasharray="3,3" />
+  <circle cx="150" cy="110" r="3.5" fill="#f59e0b" />
+  <circle cx="150" cy="140" r="3.5" fill="#f59e0b" />
+  <circle cx="150" cy="170" r="3.5" fill="#f59e0b" />
+  <circle cx="150" cy="200" r="3.5" fill="#f59e0b" />
+  <circle cx="150" cy="230" r="3.5" fill="#f59e0b" />
+  <rect x="115" y="115" width="25" height="25" fill="#182c47" stroke="#d97706" stroke-width="1.5" stroke-dasharray="2,2" />
+  <rect x="160" y="115" width="25" height="25" fill="#182c47" stroke="#d97706" stroke-width="1.5" stroke-dasharray="2,2" />
+  <text x="150" y="295" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11" font-weight="600" fill="#64748b" text-anchor="middle">JAPANESE SELVEDGE DENIM</text>
+</svg>
+

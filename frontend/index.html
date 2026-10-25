@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ADITYA CLOTHES - Contemporary Sustainable Apparel</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="airbnb-header">
+    <div class="header-top">
+      <a href="index.html" class="brand">
+        <span class="brand-logo-bag">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M4 8h16l-1.5 13H5.5L4 8z"></path>
+            <path d="M8.5 10V5.5a3.5 3.5 0 0 1 7 0V10"></path>
+          </svg>
+        </span>
+        <span>ADITYA CLOTHES</span>
+      </a>
+
+      <form class="airbnb-search-bar" id="searchForm">
+        <input type="text" class="airbnb-search-input" id="storeSearchInput" placeholder="Search heavyweight tees, hoodies, selvedge denim...">
+        <button type="submit" class="airbnb-search-btn">Search</button>
+      </form>
+
+      <nav class="header-nav">
+        <a href="index.html" class="nav-link">Collection</a>
+        <a href="orders.html" class="nav-link">My Orders</a>
+        <a href="cart.html" class="cart-pill">
+          <span>Bag</span>
+          <span class="cart-count">0</span>
+        </a>
+      </nav>
+    </div>
+
+    <div class="category-bar-wrapper">
+      <div class="category-bar" id="categoryTabs"></div>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="listing-toolbar">
+      <div>
+        <h1 class="toolbar-title">Wardrobe Essentials</h1>
+        <div class="toolbar-subtitle">Sustainably milled organic cotton, selvedge denim, and fine knitwear. Complimentary delivery across India over &#8377;1,999.</div>
+      </div>
+      <div class="sort-wrapper">
+        <label for="sortSelect" style="font-size: 13px; font-weight: 600; color: #717171;">Sort By:</label>
+        <select id="sortSelect" class="sort-select">
+          <option value="default">Featured</option>
+          <option value="price-asc">Price: Low to High</option>
+          <option value="price-desc">Price: High to Low</option>
+          <option value="rating-desc">Highest Rated</option>
+          <option value="name-asc">Alphabetical</option>
+        </select>
+        <span id="productsCount" style="font-size: 13px; color: #717171; margin-left: 8px;"></span>
+      </div>
+    </div>
+
+    <div class="clothes-grid" id="productsGrid"></div>
+  </main>
+
+  <footer class="airbnb-footer">
+    <div class="footer-inner">
+      <div>
+        <div class="footer-header">ADITYA CLOTHES</div>
+        <p style="line-height: 1.6; max-width: 340px;">
+          Independent clothing label specializing in heavy-gauge natural fibers, ethical tailoring, and timeless casual silhouettes.
+        </p>
+      </div>
+      <div>
+        <div class="footer-header">Collection</div>
+        <ul class="footer-links">
+          <li><a href="index.html">All Garments</a></li>
+          <li><a href="cart.html">View Bag</a></li>
+          <li><a href="orders.html">Track Order</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="footer-header">Legal</div>
+        <ul class="footer-links">
+          <li><a href="terms.html">Terms of Service</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="footer-header">Customer Support</div>
+        <ul class="footer-links">
+          <li>Hours: Mon-Fri 09:00 - 18:00</li>
+          <li>Contact: +91 9336161644</li>
+          <li>WhatsApp: +91 9120969698</li>
+          <li>Email: adityapatelp34@gmail.com</li>
+          <li>Exchanges: 8 to 30-Day Policy</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 ADITYA CLOTHES. All rights reserved.</span>
+      <span>Direct Workshop Fulfillment</span>
+    </div>
+  </footer>
+
+  <script src="js/products-data.js"></script>
+  <script src="js/api.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="js/store.js"></script>
+</body>
+</html>

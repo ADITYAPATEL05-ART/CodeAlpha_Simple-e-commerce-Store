@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order Tracking - ADITYA CLOTHES</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="airbnb-header">
+    <div class="header-top">
+      <a href="index.html" class="brand">
+        <span class="brand-logo-bag">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M4 8h16l-1.5 13H5.5L4 8z"></path>
+            <path d="M8.5 10V5.5a3.5 3.5 0 0 1 7 0V10"></path>
+          </svg>
+        </span>
+        <span>ADITYA CLOTHES</span>
+      </a>
+
+      <form class="airbnb-search-bar" action="index.html" method="GET">
+        <input type="text" name="search" class="airbnb-search-input" placeholder="Search heavyweight tees, hoodies, selvedge denim...">
+        <button type="submit" class="airbnb-search-btn">Search</button>
+      </form>
+
+      <nav class="header-nav">
+        <a href="index.html" class="nav-link">Collection</a>
+        <a href="orders.html" class="nav-link">My Orders</a>
+        <a href="cart.html" class="cart-pill">
+          <span>Bag</span>
+          <span class="cart-count">0</span>
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container" style="max-width: 860px;">
+    <h1 style="font-size: 24px; font-weight: 800; color: #222222; margin-bottom: 20px;">Track Order</h1>
+
+    <div class="form-box">
+      <form id="orderLookupForm">
+        <div class="form-row-2">
+          <div class="form-field">
+            <label for="lookupOrderId" class="field-label">Order Reference ID</label>
+            <input type="text" id="lookupOrderId" class="field-input" placeholder="e.g. ADI-M89X..." style="text-transform: uppercase;">
+          </div>
+          <div class="form-field">
+            <label for="lookupEmail" class="field-label">Email Address</label>
+            <input type="email" id="lookupEmail" class="field-input" placeholder="e.g. alex@example.com">
+          </div>
+        </div>
+        <button type="submit" class="btn-reserve" style="width: auto; padding: 10px 24px; margin-top: 6px;">
+          Find Order
+        </button>
+      </form>
+
+      <div id="orderLookupResults" style="margin-top: 20px;"></div>
+    </div>
+
+    <div class="form-box">
+      <h2 class="form-title">Recent Orders in this Session</h2>
+      <div id="recentOrdersList"></div>
+    </div>
+  </main>
+
+  <footer class="airbnb-footer">
+    <div class="footer-inner">
+      <div>
+        <div class="footer-header">ADITYA CLOTHES</div>
+        <p style="line-height: 1.6; max-width: 340px;">
+          Independent clothing label specializing in heavy-gauge natural fibers, ethical tailoring, and timeless casual silhouettes.
+        </p>
+      </div>
+      <div>
+        <div class="footer-header">Collection</div>
+        <ul class="footer-links">
+          <li><a href="index.html">All Garments</a></li>
+          <li><a href="cart.html">View Bag</a></li>
+          <li><a href="orders.html">Track Order</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="footer-header">Legal</div>
+        <ul class="footer-links">
+          <li><a href="terms.html">Terms of Service</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="footer-header">Customer Support</div>
+        <ul class="footer-links">
+          <li>Hours: Mon-Fri 09:00 - 18:00</li>
+          <li>Contact: +91 9336161644</li>
+          <li>WhatsApp: +91 9120969698</li>
+          <li>Email: adityapatelp34@gmail.com</li>
+          <li>Exchanges: 8 to 30-Day Policy</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 ADITYA CLOTHES. All rights reserved.</span>
+      <span>Direct Workshop Fulfillment</span>
+    </div>
+  </footer>
+
+  <script src="js/products-data.js"></script>
+  <script src="js/api.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="js/order.js"></script>
+</body>
+</html>

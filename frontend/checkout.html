@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout - ADITYA CLOTHES</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="airbnb-header">
+    <div class="header-top">
+      <a href="index.html" class="brand">
+        <span class="brand-logo-bag">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M4 8h16l-1.5 13H5.5L4 8z"></path>
+            <path d="M8.5 10V5.5a3.5 3.5 0 0 1 7 0V10"></path>
+          </svg>
+        </span>
+        <span>ADITYA CLOTHES</span>
+      </a>
+
+      <nav class="header-nav">
+        <a href="index.html" class="nav-link">Collection</a>
+        <a href="cart.html" class="nav-link">Return to Bag</a>
+        <a href="cart.html" class="cart-pill">
+          <span>Bag</span>
+          <span class="cart-count">0</span>
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container" id="checkoutContainer">
+    <h1 style="font-size: 24px; font-weight: 800; color: #222222; margin-bottom: 24px;">Confirm & Pay</h1>
+
+    <div class="checkout-grid">
+      <div>
+        <form id="checkoutForm">
+          <div class="form-box">
+            <h2 class="form-title">1. Contact Information</h2>
+            <div class="form-row-2">
+              <div class="form-field" style="grid-column: 1 / -1;">
+                <label for="custName" class="field-label">Full Name *</label>
+                <input type="text" id="custName" class="field-input" placeholder="e.g. Alex Morgan" required>
+              </div>
+              <div class="form-field">
+                <label for="custEmail" class="field-label">Email Address *</label>
+                <input type="email" id="custEmail" class="field-input" placeholder="alex@example.com" required>
+              </div>
+              <div class="form-field">
+                <label for="custPhone" class="field-label">Phone Number *</label>
+                <input type="tel" id="custPhone" class="field-input" placeholder="+1 (555) 234-5678" required>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-box">
+            <h2 class="form-title">2. Shipping Destination</h2>
+            <div class="form-field">
+              <label for="shipAddress" class="field-label">Street Address *</label>
+              <input type="text" id="shipAddress" class="field-input" placeholder="742 Evergreen Terrace" required>
+            </div>
+            <div class="form-row-2">
+              <div class="form-field">
+                <label for="shipCity" class="field-label">City *</label>
+                <input type="text" id="shipCity" class="field-input" placeholder="Portland" required>
+              </div>
+              <div class="form-field">
+                <label for="shipState" class="field-label">State / Province *</label>
+                <input type="text" id="shipState" class="field-input" placeholder="OR" required>
+              </div>
+              <div class="form-field">
+                <label for="shipZip" class="field-label">Postal / ZIP Code *</label>
+                <input type="text" id="shipZip" class="field-input" placeholder="97201" required>
+              </div>
+              <div class="form-field">
+                <label for="shipCountry" class="field-label">Country *</label>
+                <select id="shipCountry" class="field-select">
+                  <option value="India" selected>India</option>
+                  <option value="United States">United States</option>
+                  <option value="United Kingdom">United Kingdom</option>
+                  <option value="Australia">Australia</option>
+                  <option value="Canada">Canada</option>
+                  <option value="Japan">Japan</option>
+                  <option value="Germany">Germany</option>
+                </select>
+              </div>
+            </div>
+
+            <div style="margin-top: 14px;">
+              <span class="field-label">Courier Method</span>
+              <div style="display:flex; flex-direction:column; gap:8px; margin-top:6px;">
+                <label style="display:flex; align-items:center; gap:8px; font-size:14px; cursor:pointer;">
+                  <input type="radio" name="shippingMethod" value="standard" checked>
+                  <span>Standard Ground (3 to 5 days) &bull; Free on orders over &#8377;1,999</span>
+                </label>
+                <label style="display:flex; align-items:center; gap:8px; font-size:14px; cursor:pointer;">
+                  <input type="radio" name="shippingMethod" value="express">
+                  <span>Expedited Express (1 to 2 days) &bull; +&#8377;299.00</span>
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-box">
+            <h2 class="form-title">3. Payment Method</h2>
+            <div style="display:flex; flex-direction:column; gap:10px; margin-bottom:16px;">
+              <label style="display:flex; align-items:center; gap:10px; padding:10px; border:1px solid #dddddd; border-radius:4px; cursor:pointer; font-size:14px;">
+                <input type="radio" name="paymentMethod" value="Card" checked>
+                <span>Credit or Debit Card (Visa, MasterCard, Amex)</span>
+              </label>
+              <label style="display:flex; align-items:center; gap:10px; padding:10px; border:1px solid #dddddd; border-radius:4px; cursor:pointer; font-size:14px;">
+                <input type="radio" name="paymentMethod" value="Cash on Delivery">
+                <span>Cash on Delivery (Pay upon delivery arrival)</span>
+              </label>
+            </div>
+
+            <div id="creditCardFields" style="background:#fafafa; border:1px solid #ebebeb; padding:16px; border-radius:4px;">
+              <div class="form-field">
+                <label for="cardNumber" class="field-label">Card Number</label>
+                <input type="text" id="cardNumber" class="field-input" placeholder="4242 4242 4242 4242" maxlength="19">
+              </div>
+              <div class="form-row-2">
+                <div class="form-field">
+                  <label for="cardExp" class="field-label">Expiration (MM/YY)</label>
+                  <input type="text" id="cardExp" class="field-input" placeholder="10/28" maxlength="5">
+                </div>
+                <div class="form-field">
+                  <label for="cardCvv" class="field-label">Security Code (CVV)</label>
+                  <input type="password" id="cardCvv" class="field-input" placeholder="123" maxlength="4">
+                </div>
+              </div>
+            </div>
+
+            <div class="form-field" style="margin-top: 16px;">
+              <label for="orderNotes" class="field-label">Delivery Notes (Optional)</label>
+              <textarea id="orderNotes" class="field-textarea" rows="2" placeholder="Apartment buzz code, door instructions, or packaging notes."></textarea>
+            </div>
+
+            <button type="submit" id="submitOrderBtn" class="btn-reserve" style="margin-top: 10px;">
+              Confirm and Place Order
+            </button>
+          </div>
+        </form>
+      </div>
+
+      <div>
+        <div class="airbnb-reserve-box" style="position: sticky; top: 100px;">
+          <h2 style="font-size:18px; font-weight:700; margin-bottom:16px;">Order Details</h2>
+          <div id="checkoutItemsList" style="max-height: 280px; overflow-y: auto; margin-bottom: 16px; border-bottom: 1px solid #ebebeb;"></div>
+          <div class="calc-row">
+            <span>Items:</span>
+            <span id="checkoutItemCount">0</span>
+          </div>  
+          <div class="calc-row">
+            <span>Garments Subtotal:</span>
+            <span id="checkoutSubtotal">&#8377;0.00</span>
+          </div>
+          <div class="calc-row">
+            <span>Shipping:</span>
+            <span id="checkoutShipping">&#8377;0.00</span>
+          </div>
+          <div class="calc-row">
+            <span>GST (5%):</span>
+            <span id="checkoutTax">&#8377;0.00</span>
+          </div>
+          <div class="calc-total">
+            <span>Total:</span>
+            <span id="checkoutTotal">&#8377;0.00</span>
+          </div>
+
+          <div style="font-size: 12px; color: #717171; margin-top: 16px; line-height: 1.4;">
+            By confirming you accept our <a href="terms.html" style="text-decoration:underline;">Terms</a> and <a href="privacy.html" style="text-decoration:underline;">Privacy Policy</a>.
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="airbnb-footer">
+    <div class="footer-inner">
+      <div>
+        <div class="footer-header">ADITYA CLOTHES</div>
+        <p style="line-height: 1.6; max-width: 340px;">
+          Independent clothing label specializing in heavy-gauge natural fibers, ethical tailoring, and timeless casual silhouettes.
+        </p>
+      </div>
+      <div>
+        <div class="footer-header">Collection</div>
+        <ul class="footer-links">
+          <li><a href="index.html">All Garments</a></li>
+          <li><a href="cart.html">View Bag</a></li>
+          <li><a href="orders.html">Track Order</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="footer-header">Legal</div>
+        <ul class="footer-links">
+          <li><a href="terms.html">Terms of Service</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="footer-header">Customer Support</div>
+        <ul class="footer-links">
+          <li>Hours: Mon-Fri 09:00 - 18:00</li>
+          <li>Contact: +91 9336161644</li>
+          <li>WhatsApp: +91 9120969698</li>
+          <li>Email: adityapatelp34@gmail.com</li>
+          <li>Exchanges: 8 to 30-Day Policy</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 ADITYA CLOTHES. All rights reserved.</span>
+      <span>Direct Workshop Fulfillment</span>
+    </div>
+  </footer>
+
+  <script src="js/products-data.js"></script>
+  <script src="js/api.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="js/checkout.js"></script>
+</body>
+</html>

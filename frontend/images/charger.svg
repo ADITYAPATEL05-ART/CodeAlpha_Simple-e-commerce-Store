@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 240" width="300" height="240">
+  <rect width="300" height="240" fill="#f1f3f5" />
+  <rect x="95" y="70" width="110" height="110" rx="3" fill="#1e293b" stroke="#334155" stroke-width="2" />
+  <rect x="75" y="90" width="20" height="6" fill="#94a3b8" />
+  <rect x="75" y="140" width="20" height="6" fill="#94a3b8" />
+  <rect x="180" y="95" width="15" height="6" rx="1" fill="#0f172a" />
+  <rect x="180" y="115" width="15" height="18" rx="1" fill="#0f172a" />
+  <rect x="182" y="122" width="11" height="4" fill="#3b82f6" />
+  <text x="120" y="120" font-family="sans-serif" font-size="12" font-weight="bold" fill="#f8fafc">65W</text>
+  <text x="120" y="136" font-family="sans-serif" font-size="10" fill="#94a3b8">GaN</text>
+</svg>
+

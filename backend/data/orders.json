@@ -1,0 +1,202 @@
+[
+  {
+    "orderId": "ADI-MVND4EYY-6111",
+    "createdAt": "2026-10-25T05:03:45.610Z",
+    "displayDate": "25 Oct 2026, 10:33 am",
+    "status": "Confirmed",
+    "customer": {
+      "fullName": "Rahul Sharma",
+      "email": "rahul@adityaclothes.com",
+      "phone": "9876543210"
+    },
+    "shipping": {
+      "address": "42 Connaught Place",
+      "city": "New Delhi",
+      "state": "Delhi",
+      "postalCode": "110001",
+      "country": "India",
+      "method": "Standard Delivery (3-5 business days)"
+    },
+    "payment": {
+      "method": "Card",
+      "lastFourDigits": "4242"
+    },
+    "items": [
+      {
+        "id": 1,
+        "name": "Heavyweight Organic Boxy T-Shirt",
+        "sku": "ADI-TEE-001",
+        "price": 999,
+        "quantity": 2,
+        "itemTotal": 1998,
+        "image": "images/tee-boxy.jpg"
+      },
+      {
+        "id": 4,
+        "name": "450 GSM Heavyweight Pullover Hoodie",
+        "sku": "ADI-HOD-004",
+        "price": 2499,
+        "quantity": 1,
+        "itemTotal": 2499,
+        "image": "images/hoodie-heavy.jpg"
+      }
+    ],
+    "pricing": {
+      "subtotal": 4497,
+      "shippingFee": 0,
+      "tax": 224.85,
+      "grandTotal": 4721.85
+    },
+    "notes": ""
+  },
+  {
+    "orderId": "ORD-MVNCG11W-4177",
+    "createdAt": "2026-10-25T04:44:47.828Z",
+    "displayDate": "Oct 25, 2026, 10:14 AM",
+    "status": "Confirmed",
+    "customer": {
+      "fullName": "Emma Watson",
+      "email": "emma@adityaclothes.com",
+      "phone": "555-444-3333"
+    },
+    "shipping": {
+      "address": "120 Spring St",
+      "city": "New York",
+      "state": "NY",
+      "postalCode": "10012",
+      "country": "United States",
+      "method": "Standard Delivery"
+    },
+    "payment": {
+      "method": "Card",
+      "lastFourDigits": "4242"
+    },
+    "items": [
+      {
+        "id": 1,
+        "name": "Heavyweight Organic Boxy T-Shirt",
+        "sku": "ADI-TEE-001",
+        "price": 38,
+        "quantity": 2,
+        "itemTotal": 76,
+        "image": "images/tee-boxy.jpg"
+      },
+      {
+        "id": 6,
+        "name": "Selvedge Denim Trucker Jacket",
+        "sku": "ADI-JKT-006",
+        "price": 145,
+        "quantity": 1,
+        "itemTotal": 145,
+        "image": "images/denim-jacket.jpg"
+      }
+    ],
+    "pricing": {
+      "subtotal": 221,
+      "shippingFee": 0,
+      "tax": 17.68,
+      "grandTotal": 238.68
+    },
+    "notes": ""
+  },
+  {
+    "orderId": "ORD-MVNBX1JH-1960",
+    "createdAt": "2026-10-25T04:30:01.997Z",
+    "displayDate": "Oct 25, 2026, 10:00 AM",
+    "status": "Confirmed",
+    "customer": {
+      "fullName": "Sarah Connor",
+      "email": "sarah@tech.org",
+      "phone": "555-888-9999"
+    },
+    "shipping": {
+      "address": "100 Cyberdyne Blvd",
+      "city": "Sunnyvale",
+      "state": "CA",
+      "postalCode": "94086",
+      "country": "United States",
+      "method": "Priority Expedited Air (1-2 business days)"
+    },
+    "payment": {
+      "method": "Card",
+      "lastFourDigits": "1111"
+    },
+    "items": [
+      {
+        "id": 2,
+        "name": "Active Noise Cancelling Wireless Earbuds",
+        "sku": "AUD-EB-204",
+        "price": 89.5,
+        "quantity": 1,
+        "itemTotal": 89.5,
+        "image": "/images/earbuds.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Ergonomic Multi-Device Wireless Mouse",
+        "sku": "PER-MS-502",
+        "price": 49.99,
+        "quantity": 1,
+        "itemTotal": 49.99,
+        "image": "/images/mouse.jpg"
+      }
+    ],
+    "pricing": {
+      "subtotal": 139.49,
+      "shippingFee": 0,
+      "tax": 11.16,
+      "grandTotal": 150.65
+    },
+    "notes": ""
+  },
+  {
+    "orderId": "ORD-MVNBN1SD-2223",
+    "createdAt": "2026-10-25T04:22:15.757Z",
+    "displayDate": "Oct 25, 2026, 09:52 AM",
+    "status": "Confirmed",
+    "customer": {
+      "fullName": "John Smith",
+      "email": "john.smith@test.com",
+      "phone": "555-123-4567"
+    },
+    "shipping": {
+      "address": "742 Evergreen Terrace",
+      "city": "Springfield",
+      "state": "OR",
+      "postalCode": "97477",
+      "country": "United States",
+      "method": "Standard Delivery (3-5 business days)"
+    },
+    "payment": {
+      "method": "Card",
+      "lastFourDigits": "4444"
+    },
+    "items": [
+      {
+        "id": 1,
+        "name": "Studio Monitor Pro Wired Headphones",
+        "sku": "AUD-MN-101",
+        "price": 129.99,
+        "quantity": 2,
+        "itemTotal": 259.98,
+        "image": "/images/headphones.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Mechanical Keyboard Tenkeyless Tactile Brown",
+        "sku": "PER-KB-401",
+        "price": 79.99,
+        "quantity": 1,
+        "itemTotal": 79.99,
+        "image": "/images/keyboard.jpg"
+      }
+    ],
+    "pricing": {
+      "subtotal": 339.97,
+      "shippingFee": 0,
+      "tax": 27.2,
+      "grandTotal": 367.17
+    },
+    "notes": ""
+  }
+]
